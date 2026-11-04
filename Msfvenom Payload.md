@@ -22,4 +22,13 @@
 将生成的payload复制到Windows上并运行  
 在kali中便可以控制Windows
 ![1](https://github.com/Chenyuzhiying0/111111.github.io/blob/main/image/msfvenom%20payload%20result.png)  
+<br>
+<br>
+<br>
+<br>
 
+--
+将生成的payload上传至微步云沙箱  
+结果如图所示  
+![1](https://github.com/Chenyuzhiying0/111111.github.io/blob/main/image/%E5%BE%AE%E6%AD%A5%E4%BA%91%E6%B2%99%E7%AE%B11.png)  
+![1](https://github.com/Chenyuzhiying0/111111.github.io/blob/main/image/%E5%BE%AE%E6%AD%A5%E4%BA%91%E6%B2%99%E7%AE%B12.png)  
