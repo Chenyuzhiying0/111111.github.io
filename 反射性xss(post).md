@@ -1,0 +1,9 @@
+输入用户名admin和密码123456登录  
+这次没有输入的长度限制   
+在输入框中输入<script>alert(document.cookie)</script>  
+![1](https://github.com/Chenyuzhiying0/111111.github.io/blob/main/image/%E5%8F%8D%E5%B0%84%E6%80%A7xss(post)1.png)  
+如图所示，显示出了当前页面的Cookie  
+获得了用户名admin和非明文的密码10470c3b4b1fed12c3baac014be15fac67c6e815    
+将123456计算MD5，得到e10adc3949ba59abbe56e057f20f883e  
+再将e10adc3949ba59abbe56e057f20f883e计算SHA-1，即可得到10470c3b4b1fed12c3baac014be15fac67c6e815  
+表明登录的密码即为123456  
